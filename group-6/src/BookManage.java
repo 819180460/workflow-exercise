@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import static sun.misc.Version.println;
-
 public class BookManage {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -12,8 +10,7 @@ public class BookManage {
         book[2] = new Book(3, "现代软件工程构建之法", "邹欣");
         book[3] = new Book(4, "Python数据分析与应用", "黄红梅 张良均");
         book[4] = new Book(5, "大数据技术原理与应用(第2版)", "林子雨");
-        int a=book.length;
-        System.out.println(a);
+
         while (true) {
 //            程序说明
             System.out.println("-------------------------------------------");
@@ -62,5 +59,7 @@ public class BookManage {
         }
 //        退出信息
         System.out.println("程序已退出，欢迎下次使用。");
+        System.out.println("程序已退出");
     }
 }
+//真不错住在山里面
